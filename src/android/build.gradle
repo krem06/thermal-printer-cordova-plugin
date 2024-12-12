@@ -1,12 +1,9 @@
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
-        maven {
-            url 'https://maven.pkg.github.com/krem06/ESCPOS-ThermalPrinter-Android'
-        }
     }
 }
 
 dependencies {
-    implementation 'com.github.krem06:ESCPOS-ThermalPrinter-Android:main'
+    implementation ':ESCPOS-ThermalPrinter-Android'
 }
