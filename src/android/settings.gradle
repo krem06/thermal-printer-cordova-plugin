@@ -8,6 +8,8 @@ dependencyResolutionManagement {
     sourceControl {
         gitRepository("https://github.com/krem06/ESCPOS-ThermalPrinter-Android.git") {
             producesModule("com.github.krem06:ESCPOS-ThermalPrinter-Android")
+            // Specify the directory to clone the repository
+            cloneDirectory = file("libs/ESCPOS-ThermalPrinter-Android")
         }
     }
 }
