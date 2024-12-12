@@ -5,7 +5,5 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.krem06:ESCPOS-ThermalPrinter-Android:master-SNAPSHOT', {
-        changing = true
-    }
+    implementation project(':ESCPOS-ThermalPrinter-Android')
 }

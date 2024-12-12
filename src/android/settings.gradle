@@ -1,0 +1,5 @@
+include ':ESCPOS-ThermalPrinter-Android'
+project(':ESCPOS-ThermalPrinter-Android').projectDir = new File('ESCPOS-ThermalPrinter-Android')
+
+// Print the path to verify
+println "ESCPOS-ThermalPrinter-Android project path: " + project(':ESCPOS-ThermalPrinter-Android').projectDir.absolutePath
