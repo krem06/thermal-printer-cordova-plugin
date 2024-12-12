@@ -1,2 +1,2 @@
-include ':app', ':ESCPOS-ThermalPrinter-Android'
+include ':ESCPOS-ThermalPrinter-Android'
 project(':ESCPOS-ThermalPrinter-Android').projectDir = new File('ESCPOS-ThermalPrinter-Android')
