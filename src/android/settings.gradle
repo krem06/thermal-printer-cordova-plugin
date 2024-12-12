@@ -3,8 +3,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // Add the Git repository URL here
         maven { url = uri("https://github.com/krem06/ESCPOS-ThermalPrinter-Android.git") }
+    }
+    sourceControl {
+        gitRepository("https://github.com/krem06/ESCPOS-ThermalPrinter-Android.git") {
+            producesModule("com.github.krem06:ESCPOS-ThermalPrinter-Android")
+        }
     }
 }
 
