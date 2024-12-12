@@ -1,4 +1,4 @@
 include ':ESCPOS-ThermalPrinter-Android'
-project(':ESCPOS-ThermalPrinter-Android').projectDir = new File('/android/ESCPOS-ThermalPrinter-Android')
+project(':ESCPOS-ThermalPrinter-Android').projectDir = new File('ESCPOS-ThermalPrinter-Android')
 
 println "ESCPOS-ThermalPrinter-Android project pathsssssss: " + project(':ESCPOS-ThermalPrinter-Android').projectDir.absolutePath
