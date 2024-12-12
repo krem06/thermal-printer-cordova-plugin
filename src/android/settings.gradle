@@ -3,15 +3,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://github.com/krem06/ESCPOS-ThermalPrinter-Android.git") }
     }
     sourceControl {
-        gitRepository("https://github.com/krem06/ESCPOS-ThermalPrinter-Android.git") {
+        gitRepository("https://github.com/YOUR_USERNAME/ESCPOS-ThermalPrinter-Android.git") {
             producesModule("com.github.krem06:ESCPOS-ThermalPrinter-Android")
-            // Specify the directory to clone the repository
             cloneDirectory = file("libs/ESCPOS-ThermalPrinter-Android")
         }
     }
 }
+
 
 include(":app")
