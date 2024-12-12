@@ -1,2 +1,11 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // Add the Git repository URL here
+        maven { url = uri("https://github.com/krem06/ESCPOS-ThermalPrinter-Android.git") }
+    }
+}
+
 include(":app")
-include(":ESCPOS-ThermalPrinter-Android")
