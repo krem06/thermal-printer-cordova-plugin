@@ -1,2 +1,2 @@
 include ':ESCPOS-ThermalPrinter-Android'
-project(':ESCPOS-ThermalPrinter-Android').projectDir = new File('ESCPOS-ThermalPrinter-Android')
+project(':ESCPOS-ThermalPrinter-Android').projectDir = new File('/src/android/ESCPOS-ThermalPrinter-Android')
